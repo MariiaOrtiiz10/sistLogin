@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using sistemaLogin;
 
 namespace Login
 {
@@ -15,6 +16,7 @@ namespace Login
         public Form1()
         {
             InitializeComponent();
+            Connection.OpenConnection();
         }
     }
 }
