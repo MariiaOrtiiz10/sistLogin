@@ -16,5 +16,15 @@ namespace Login
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Le has dado al botón aceptar");
+        }
     }
 }
